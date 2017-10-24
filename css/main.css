@@ -150,13 +150,15 @@
 	width: 270px;
 }
 .option__img {
-	width: 157px;
-
+	display: block;
+    width: 157px;
+    margin: 0 auto;
 }
 .option__text {
 	font-size: 20px;
     line-height: 1.9em;
     word-spacing: 11px;
+    text-align: justify;
 }
 .btn_option {
 	padding-left: 40px;
@@ -176,10 +178,17 @@
     text-transform: uppercase;
     font-family: 'Bebas';
     font-size: 57px;
+    margin-bottom: 53px;
 
 }
 .slider__content {
 
+}
+.slider_image {
+	display: block;
+	width: 890px;
+	margin: 0 auto;
+	margin-bottom: 76px;
 }
 
 /*SLIDER END*/
@@ -187,15 +196,33 @@
 /*PREVIEW*/
 .previews {
 
+
 }
 .previews__title {
-
+	font-size: 58px;
+    font-family: 'Bebas';
+    text-align: center;
+    margin-bottom: 85px;
 }
 .previews__content {
-
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-bottom: 76px;
 }
 .preview__img {
-
+	width: 286px;
+	height: 286px;
+}
+.btn_previews {
+	display: block;
+    width: 555px;
+    margin: 0 auto;
+    height: 70px;
+    font-size: 55px;
+    border-radius: 14px;
+    margin-bottom: 30px;
 }
 /*PREVIEW END*/
 
@@ -205,43 +232,68 @@
 
 }
 .comments__group {
-
+    display: flex;
+    flex-direction: column;
+    max-height: 510px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .comment {
-
+	position: relative;
+	margin-bottom: 10px;
 }
 .comment_img {
-
+	position: absolute;
+    left: 20px;
+    top: 25px;
 }
 .comment__block {
-
+	margin-left: 100px;
+    max-width: 350px;
 }
 .comment__title {
-
+	font-weight: bold;
+    margin-bottom: 5px;
 }
 .comment__text {
 
 }
 .stats {
-
+	color: #669ec4;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 25px;
 }
 .stats__like {
-
+	display: inline-block;
+    position: relative;
+}
+.stats__like::before {
+	content: "\2665";
+    font-size: 20px;
+    position: absolute;
+    left: 118px;
 }
 .stats__count {
-
+	display: inline-block;
+	margin-left: 30px;
 }
 
 /*COMMENTS END*/
 
 /*FOOTER*/
 .footer {
-
+	
+	background-color: #a1a1a1;
 }
 .contacts__block {
-
+	margin-bottom: 10px;
+	text-align: center;
 }
 .footer__content {
-
+	width: 300px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+	text-align: justify;
 }
 /*FOOTER END*/
