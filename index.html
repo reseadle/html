@@ -67,7 +67,19 @@
 		Посмотрите на этот слайдер, он же изумителен
 		</div>
 		<div class="slider__content">
-			<img src="img/fly.jpg" alt="#" class="slider_image">
+			<label for="slider__button_1" class="slider__button">Один</label>
+			<label for="slider__button_2" class="slider__button">Два</label>
+			<label for="slider__button_3" class="slider__button">Три</label>
+
+				<input type="radio" id="slider__button_1" name="slider" class="slider__radio" checked />
+				<div class="slider__image slider__image_one"></div>
+
+					<input type="radio" id="slider__button_2" name="slider" class="slider__radio" />
+					<div class="slider__image slider__image_two"></div>
+
+						<input type="radio" id="slider__button_3" name="slider" class="slider__radio" />
+						<div class="slider__image slider__image_three"></div>
+			
 		</div>
 	</section>
 	<!-- SLIDER END -->
@@ -76,9 +88,30 @@
 	<section class="previews">
 		<div class="previews__title">Какие красивые работы!</div>
 		<div class="previews__content">
-			<img src="img/preview1.jpg" alt="#" class="preview__img" >
-			<img src="img/preview2.jpg" alt="Previews image" class="preview__img" >
-			<img src="img/preview3.jpg" alt="Previews image" class="preview__img" >
+			<div class="previews__sample">
+				<img src="img/cat.jpg" alt="#" class="previews__img" >
+				<div class="previews__mask">
+				<div class="previews__header">Хочешь научиться также?</div>
+				<p class="previews__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia nostrum esse sint laborum perferendis. Repudiandae quam ex quae, saepe nihil.</p>
+				<a href="#" class="previews__link">Жми сюда</a>
+				</div>
+			</div>
+			<div class="previews__sample">
+				<img src="img/cat.jpg" alt="#" class="previews__img" >
+				<div class="previews__mask">
+				<div class="previews__header">Хочешь научиться также?</div>
+				<p class="previews__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia nostrum esse sint laborum perferendis. Repudiandae quam ex quae, saepe nihil.</p>
+				<a href="#" class="previews__link">Жми сюда</a>
+				</div>
+			</div>
+			<div class="previews__sample">
+				<img src="img/cat.jpg" alt="#" class="previews__img" >
+				<div class="previews__mask">
+				<div class="previews__header">Хочешь научиться также?</div>
+				<p class="previews__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia nostrum esse sint laborum perferendis. Repudiandae quam ex quae, saepe nihil.</p>
+				<a href="#" class="previews__link">Жми сюда</a>
+				</div>
+			</div>
 		</div>
 		<button type="button" class="btn btn_previews" name="button">
 			Хочу такое же у себя дома
